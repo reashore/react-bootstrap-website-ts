@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import About from "./Components/About";
-import Home from "./Components/Home";
+import About from "./Components/About/About";
+import Home from "./Components/Home/Home";
 import MenuBar from "./Components/MenuBar";
-import News from "./Components/News";
+import News from "./Components/News/News";
 
 class App extends Component {
   public render() {

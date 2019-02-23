@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import "./News.css";
 
 export default class News extends Component {
-  render() {
+  public render() {
     return (
       <div>
-        <Image src="assets/mountain-man.jpg" className="header-image" />
+        <Image src="assets/mountain-man.jpg" rounded className="header-image" />
         <Container>
           <h2>News</h2>
           <Row>

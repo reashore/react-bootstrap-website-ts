@@ -16,7 +16,7 @@ export default class Home extends Component {
         </Jumbotron>
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-1.jpg" className="profile-pic" />
+            <Image src="assets/person-1.jpg" rounded className="profile-pic" />
             <h3>Frank</h3>
             <p>
               That's a crooked tree. We'll send him to Washington. These little
@@ -25,7 +25,7 @@ export default class Home extends Component {
             </p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-2.jpg" className="profile-pic" />
+            <Image src="assets/person-2.jpg" rounded className="profile-pic" />
             <h3>Vanessa</h3>
             <p>
               That's a crooked tree. We'll send him to Washington. These little
@@ -34,7 +34,7 @@ export default class Home extends Component {
             </p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-3.jpg" className="profile-pic" />
+            <Image src="assets/person-3.jpg" rounded className="profile-pic" />
             <h3>Riff</h3>
             <p>
               That's a crooked tree. We'll send him to Washington. These little

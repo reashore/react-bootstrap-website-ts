@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import { Col } from "react-bootstrap";
-import { Image } from "react-bootstrap";
-import { Container } from "react-bootstrap";
+import { Col, Container, Image } from "react-bootstrap";
 import "./About.css";
 
 class About extends Component {
   public render() {
     return (
       <div>
-        <Image src="assets/dog-people.jpg" className="header-image" />
+        <Image src="assets/dog-people.jpg" rounded className="header-image" />
         <Container>
           <Col xs={12} sm={8}>
             <Image

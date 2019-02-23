@@ -2,25 +2,30 @@
   "name": "react-bootstrap-website-ts",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
-    "@types/jest": "24.0.6",
-    "@types/node": "11.9.5",
-    "@types/react": "16.8.4",
-    "@types/react-dom": "16.8.2",
+    "@types/jest": "^24.0.6",
+    "@types/node": "^11.9.5",
+    "@types/react": "^16.8.4",
+    "@types/react-dom": "^16.8.2",
     "@types/react-router-dom": "^4.3.1",
     "bootstrap": "^4.3.1",
     "react": "^16.8.3",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5",
-    "typescript": "3.3.3333"
+    "react-scripts": "^2.1.5",
+    "typescript": "^3.3.3333"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^3.6.0"
   },
   "eslintConfig": {
     "extends": "react-app"

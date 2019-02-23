@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
-import MenuBar from "./Components/MenuBar";
+import MenuBar from "./Components/MenuBar/MenuBar";
 import News from "./Components/News/News";
 
 class App extends Component {
@@ -13,6 +13,7 @@ class App extends Component {
       <Router>
         <Container>
           <MenuBar />
+          <Route path="/" exact component={Home} />
           <Route path="/Home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />

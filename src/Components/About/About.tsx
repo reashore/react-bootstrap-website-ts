@@ -16,7 +16,7 @@ const About: React.SFC = () => (
           className="about-profile-pic"
           rounded={true}
         />
-        <h3>Frank The Tank</h3>
+        <h3>Frank's Biography</h3>
         <p>
           That's a crooked tree. We'll send him to Washington. These little son
           of a guns hide in your brush and you just have to push them out. These
